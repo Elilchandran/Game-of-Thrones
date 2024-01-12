@@ -31,12 +31,12 @@ async function getcharater(){
                 </div>
                 <h5  style="color:hsl(204, 100%, 75%);text-align:center">${data[i].fullName}</h5>
                 <img src="${data[i].imageUrl}" class="card-img-top" alt="${data[i].image}"width="200" height="300">
-                <div class="card-body">
-                  <p  style="color:hsl(120, 2%, 90%)">First Name: ${data[i].firstName}</p>
-                  <p  style="color:hsl(120, 2%, 90%)">Last Name: ${data[i].lastName}</p>
-                  <p  style="color:hsl(120, 2%, 90%)">Title: ${data[i].title}</p>
-                  <p  style="color:hsl(120, 2%, 90%)">Family: ${data[i].family}</p>
-                  <p style="color:hsl(120, 2%, 90%)">Id: ${data[i].id}</p>
+                <div class="card-body"  style="color:hsl(120, 2%, 90%)">
+                  <p  >First Name: ${data[i].firstName}</p>
+                  <p >Last Name: ${data[i].lastName}</p>
+                  <p  >Title: ${data[i].title}</p>
+                  <p  >Family: ${data[i].family}</p>
+                  <p >Id: ${data[i].id}</p>
                 </div>
               </div>
             </div>
